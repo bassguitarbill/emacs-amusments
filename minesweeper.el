@@ -60,3 +60,5 @@
 (defun minesweeper-get-square (width row column)
   ""
   (elt *minesweeper-discovered* (+ column (* width row))))
+
+(message "Loaded minesweeper")
